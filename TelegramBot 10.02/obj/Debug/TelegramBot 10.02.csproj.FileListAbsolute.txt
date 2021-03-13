@@ -1,0 +1,12 @@
+C:\Users\User\source\repos\TelegramBot 10.02\TelegramBot 10.02\bin\Debug\TelegramBot 10.02.exe.config
+C:\Users\User\source\repos\TelegramBot 10.02\TelegramBot 10.02\bin\Debug\TelegramBot 10.02.exe
+C:\Users\User\source\repos\TelegramBot 10.02\TelegramBot 10.02\bin\Debug\TelegramBot 10.02.pdb
+C:\Users\User\source\repos\TelegramBot 10.02\TelegramBot 10.02\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\source\repos\TelegramBot 10.02\TelegramBot 10.02\bin\Debug\Telegram.Bot.dll
+C:\Users\User\source\repos\TelegramBot 10.02\TelegramBot 10.02\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\source\repos\TelegramBot 10.02\TelegramBot 10.02\bin\Debug\Telegram.Bot.xml
+C:\Users\User\source\repos\TelegramBot 10.02\TelegramBot 10.02\obj\Debug\TelegramBot 10.02.csprojAssemblyReference.cache
+C:\Users\User\source\repos\TelegramBot 10.02\TelegramBot 10.02\obj\Debug\TelegramBot 10.02.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\TelegramBot 10.02\TelegramBot 10.02\obj\Debug\TelegramBot 10.02.csproj.CopyComplete
+C:\Users\User\source\repos\TelegramBot 10.02\TelegramBot 10.02\obj\Debug\TelegramBot 10.02.exe
+C:\Users\User\source\repos\TelegramBot 10.02\TelegramBot 10.02\obj\Debug\TelegramBot 10.02.pdb

@@ -9,14 +9,22 @@ using Telegram.Bot.Args; //чтобы получить тип сообщения
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 using Telegram.Bot.Types;
-
+using TelegramBot_10._02.Models;
 
 namespace TelegramBot_10._02
 {
     class Program
     {
         static TelegramBotClient Bot; //создали объект
+        List<Deputy> deputies { get; set; } = new List<Deputy>()
+        {
+            new Deputy()
+            {
+                Name = "Дастан Бекешев"
+            }
+        };
 
+        List<Law> laws { get; set; } = new List<Law>();
 
         static void Main(string[] args)
         {
@@ -56,7 +64,7 @@ namespace TelegramBot_10._02
             {
                 case "/start":
                     string text =
-@"Привет, я бот ебобот
+@"Привет, я бот conciousness
 отправь имя депутата";
                     await /*чтобы обратывалось смс от неск-х юзеров*/ Bot.SendTextMessageAsync(message.From.Id/* находим отправителя по айПи*/, text /*отправляем текс*/);
                     break;
@@ -89,5 +97,14 @@ namespace TelegramBot_10._02
 
         }
 
+        public Deputy GetDeputy(string name)
+        {
+            return deputies.Find(x => x.Name == name);
+        }
+
+        public List<Law> GetLaws(string lawName) //Не успели =(
+        {
+            return new List<Law>();
+        }
     }
 }

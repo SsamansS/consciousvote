@@ -49,6 +49,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Deputy.cs" />
+    <Compile Include="Models\Law.cs" />
+    <Compile Include="Models\Vote.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

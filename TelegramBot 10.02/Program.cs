@@ -11,7 +11,7 @@ using Telegram.Bot.Types.ReplyMarkups;
 using Telegram.Bot.Types;
 using TelegramBot_10._02.Models;
 
-namespace TelegramBot_10._02
+namespace TelegramBot.Concious.Choice
 {
     class Program
     {

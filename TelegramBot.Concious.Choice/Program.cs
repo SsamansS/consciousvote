@@ -9,14 +9,14 @@ using Telegram.Bot.Args; //чтобы получить тип сообщения
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 using Telegram.Bot.Types;
-using TelegramBot_10._02.Models;
+using TelegramBot.Concious.Choice.Model;
 
 namespace TelegramBot.Concious.Choice
 {
     class Program
     {
         static TelegramBotClient Bot; //создали объект
-        List<Deputy> deputies { get; set; } = new List<Deputy>()
+        List<Deputy> Deputies { get; set; } = new List<Deputy>()
         {
             new Deputy()
             {
@@ -24,7 +24,7 @@ namespace TelegramBot.Concious.Choice
             }
         };
 
-        List<Law> laws { get; set; } = new List<Law>();
+        List<Law> Laws { get; set; } = new List<Law>();
 
         static void Main(string[] args)
         {
@@ -99,7 +99,7 @@ namespace TelegramBot.Concious.Choice
 
         public Deputy GetDeputy(string name)
         {
-            return deputies.Find(x => x.Name == name);
+            return Deputies.Find(x => x.Name == name);
         }
 
         public List<Law> GetLaws(string lawName) //Не успели =(
